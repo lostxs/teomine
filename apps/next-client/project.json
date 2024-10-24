@@ -1,0 +1,13 @@
+{
+	"name": "next-client",
+	"$schema": "../../node_modules/nx/schemas/project-schema.json",
+	"sourceRoot": "apps/next-client",
+	"projectType": "application",
+	"tags": [],
+	"// targets": "to see all targets run: nx show project next-client --web",
+	"targets": {
+		"format": {
+			"command": "prettier --write \"apps/next-client/**/*.{ts,tsx,scss,css}\""
+		}
+	}
+}

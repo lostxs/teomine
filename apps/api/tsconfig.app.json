@@ -1,0 +1,14 @@
+{
+	"extends": "./tsconfig.json",
+	"compilerOptions": {
+		"composite": true,
+		"declaration": true,
+		"outDir": "../../dist/out-tsc",
+		"module": "commonjs",
+		"types": ["node"],
+		"emitDecoratorMetadata": true,
+		"experimentalDecorators": true,
+		"target": "es2021"
+	},
+	"include": ["src/**/*.ts"]
+}
