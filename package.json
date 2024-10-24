@@ -3,7 +3,7 @@
 	"version": "0.0.0",
 	"license": "MIT",
 	"scripts": {
-		"build": "nx build next-client --skip-nx-cache && nx build api --skip-nx-cache --output public",
+		"build": "nx build next-client --skip-nx-cache && nx build api --skip-nx-cache --output-path public",
 		"start": "nx serve next-client & nx serve api"
 	},
 	"private": true,
