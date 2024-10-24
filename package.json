@@ -2,7 +2,10 @@
 	"name": "@teomine/source",
 	"version": "0.0.0",
 	"license": "MIT",
-	"scripts": {},
+	"scripts": {
+		"build": "nx build next-client && nx build api",
+		"start": "nx serve next-client & nx serve api"
+	},
 	"private": true,
 	"dependencies": {
 		"axios": "^1.6.0",
